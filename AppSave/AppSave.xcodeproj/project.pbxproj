@@ -14,6 +14,7 @@
 		332E4F941F30EEBE00471407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 332E4F931F30EEBE00471407 /* Assets.xcassets */; };
 		332E4F971F30EEBE00471407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332E4F951F30EEBE00471407 /* LaunchScreen.storyboard */; };
 		332E4F9F1F30F3A500471407 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 332E4F9E1F30F3A500471407 /* GoogleService-Info.plist */; };
+		41E21F581F31A25600DFA04A /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E21F571F31A25600DFA04A /* LogoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		332E4F961F30EEBE00471407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		332E4F981F30EEBE00471407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		332E4F9E1F30F3A500471407 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		41E21F571F31A25600DFA04A /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 		AB65B6DB8AD8B1F7CA644C9C /* Pods_AppSave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppSave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEEDF3EF71E5ACFDC6CBCAEF /* Pods-AppSave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppSave.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppSave/Pods-AppSave.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 			children = (
 				332E4F8C1F30EEBE00471407 /* AppDelegate.swift */,
 				332E4F8E1F30EEBE00471407 /* ViewController.swift */,
+				41E21F571F31A25600DFA04A /* LogoutViewController.swift */,
 				332E4F901F30EEBE00471407 /* Main.storyboard */,
 				332E4F931F30EEBE00471407 /* Assets.xcassets */,
 				332E4F951F30EEBE00471407 /* LaunchScreen.storyboard */,
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				332E4F8F1F30EEBE00471407 /* ViewController.swift in Sources */,
+				41E21F581F31A25600DFA04A /* LogoutViewController.swift in Sources */,
 				332E4F8D1F30EEBE00471407 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
